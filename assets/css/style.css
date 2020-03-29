@@ -133,6 +133,11 @@ body {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
+
+  .img-Link {
+    height: 21px;
+    width: 21px;
+  }
   
   /* portfolio page */
   
@@ -149,16 +154,20 @@ body {
   }
   
   .work img {
+    height: 300px;
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+    padding: 15px;
+   /* width="600" height="400"*/
   }
   
   .work h3 {
     position: absolute;
     bottom: 20px;
-    width: 100%;
+    width: 89%;
     padding: 15px;
+    margin-left: 15px;
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
@@ -174,6 +183,7 @@ body {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
+   /* padding-left: 75px;*/
   }
   
   /* contact page */
